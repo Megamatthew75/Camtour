@@ -9,6 +9,8 @@ def incoming_sms():
     # Get the message the user sent our Twilio number
     body = request.values.get('Body', None)
 
+    # Totally Fake Comment
+
     # Start our TwiML response
     resp = MessagingResponse()
 
