@@ -1,2 +1,2 @@
 # Camtour
-Hackathon Repository for Campus touring Web-app
+Mhacks 15 Repository for Campus touring Web-app
