@@ -8,6 +8,7 @@ from twilio.rest import Client
 account_sid = os.environ['TWILIO_ACCOUNT_SID']
 auth_token = os.environ['TWILIO_AUTH_TOKEN']
 client = Client(account_sid, auth_token)
+client
 
 new_key = client.new_keys.create(friendly_name='User Joey')
 
